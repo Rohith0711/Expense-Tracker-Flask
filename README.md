@@ -1,5 +1,8 @@
 # Expense Tracker Application
+<<<<<<< HEAD
+=======
 
+>>>>>>> f8798ad466a09daba915ccf88ad82670fe630cbd
 This project is an Expense Tracker application built using Flask, MongoDB, and Plotly for data visualization. The application allows users to register, log in, add expenses, categorize them, and view various visual representations of their spending habits.
 
 ## Project Structure
@@ -85,7 +88,8 @@ The application includes basic error handling to manage scenarios like missing u
 
    ```bash
    python3 -m venv venv
-   source venv/bin/activate
+   source venv/bin/activate  # On Unix or MacOS
+   venv\Scripts\activate     # On Windows
    ```
 
 3. Install the required dependencies:
@@ -119,4 +123,4 @@ For deployment, the application can be configured to run on a production server 
 
 ## Conclusion
 
- This Expense Tracker application provides a comprehensive solution for tracking and visualizing personal expenses. With features for user authentication, expense categorization, and interactive data visualization, it offers a user-friendly interface to manage financial data effectively.
+This Expense Tracker application provides a comprehensive solution for tracking and visualizing personal expenses. With features for user authentication, expense categorization, and interactive data visualization, it offers a user-friendly interface to manage financial data effectively.
